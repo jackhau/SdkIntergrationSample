@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter payment amount"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receipt Number"/>
+
+    <EditText
+        android:id="@+id/receipt_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pos ID"/>
+
+    <EditText
+        android:id="@+id/pos_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/shopper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shopper"/>
+
+    <Button
+        android:id="@+id/scan_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Member"/>
+
+    <Button
+        android:id="@+id/eod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End of day"/>
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"/>
+
+
+</LinearLayout>
