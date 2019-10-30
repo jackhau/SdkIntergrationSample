@@ -1,2 +1,2 @@
-include ':app', ':merchantreward-release-1.0.4'
+include ':app', ':merchantreward-release-uat-1.0.5'
 rootProject.name='SdkIntergrationSample'

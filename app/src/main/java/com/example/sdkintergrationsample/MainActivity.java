@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Button scanMember = findViewById(R.id.scan_member);
         Button eod = findViewById(R.id.eod);
         Button history = findViewById(R.id.history);
+        Button helpdesk = findViewById(R.id.helpdesk);
         amount = findViewById(R.id.amount);
         receiptNumber = findViewById(R.id.receipt_number);
         posId = findViewById(R.id.pos_id);
@@ -63,6 +64,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 starter(RewardSDK.ScreenMode.HISTORY);
+            }
+        });
+
+        helpdesk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                starter(RewardSDK.ScreenMode.HELPDESK);
             }
         });
     }

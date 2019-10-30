@@ -65,5 +65,11 @@
         android:layout_height="wrap_content"
         android:text="History"/>
 
+    <Button
+        android:id="@+id/helpdesk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helpdesk"/>
+
 
 </LinearLayout>
